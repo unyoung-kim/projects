@@ -4,7 +4,7 @@ By using only low-level primitives in numpy, implement basic convolution, denois
 
 
  ## Sample Input & Output Images
- Input & Output Images
+
 <p align="middle">
   <img src="images/image1_in.png" width="300" />
   <img src="images/image1_out.png" width="300" /> 
