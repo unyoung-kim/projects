@@ -6,23 +6,23 @@ By using only low-level primitives in numpy, implement basic convolution, denois
  ## Sample Input & Output Images
  Input & Output Images
 <p align="middle">
-  <img src="/Images/image1_in.png" width="100" />
-  <img src="/Images/img1_out.png" width="100" /> 
+  <img src="/images/image1_in.png" width="100" />
+  <img src="/images/img1_out.png" width="100" /> 
 </p>
 
 <p align="middle">
-  <img src="/Images/image2_in.jpg" width="100" />
-  <img src="/Images/image2_out.jpg" width="100" /> 
+  <img src="/images/image2_in.jpg" width="100" />
+  <img src="/images/image2_out.jpg" width="100" /> 
 </p>
 
 <p align="middle">
-  <img src="/Images/image3_in.jpg" width="100" />
-  <img src="/Images/image3_out.jpg" width="100" /> 
+  <img src="/images/image3_in.jpg" width="100" />
+  <img src="/images/image3_out.jpg" width="100" /> 
 </p>
 
 <p align="middle">
-  <img src="/Images/image4_in.jpg" width="100" />
-  <img src="/Images/image4_out.png" width="100" /> 
+  <img src="/images/image4_in.jpg" width="100" />
+  <img src="/images/image4_out.png" width="100" /> 
 </p>
 
 ## Functions
