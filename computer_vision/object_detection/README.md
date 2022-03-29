@@ -6,11 +6,11 @@ After matching descriptors between a template image of an object and a test imag
 ## Sample Outputs
 
 <p align="middle">
-  <img src="images/img1.png" width="300" />
+  <img src="images/img1.png" width="700" />
 </p>
 
 <p align="middle">
-  <img src="images/img2.png" width="300" />
+  <img src="images/img2.png" width="700" />
 </p>
 
 ## Functions & Design Choices
@@ -22,8 +22,12 @@ After matching descriptors between a template image of an object and a test imag
   4. For each pixel, apply nonmaximum suppression over (2*scale+1) ×(2*scale+1) window 
   5. Select the highest 2% of points for maximum threshold 
 
+
   The Harris Corner Value, R, could be computed as following
-  <img src="images/img3.png" width="200" />
+  <p align="left">
+    <img src="images/img3.png" width="250"/>
+  </p>
+  
   
 - **Feature Descriptor**
   1. Implement a SIFT-like feature descriptor by binning orientation energy in spatial cells surrounding an interest point
