@@ -40,4 +40,19 @@ After matching descriptors between a template image of an object and a test imag
   2. The score of each match is computed by d1/d2 (d1: closest distance, d2: 2nd closest distance)
    
 - **Hough Transform**
+  1. For each match of interest points, compute the difference in co-ordinates. ty=y1-y0, tx=x1-x0.
+  2. Compute the weights of (ty, tx) based on the probability distribution function below:
+
+<p align="middle">
+  <img src="images/img4.png" width="400" />
+</p>
+
+                        Weight = (pdf for correct matches – pdf for incorrect matches)
+
 - **Object Detection**
+  1. Multiply each template images with its template masks 
+  2. Find interest points of template & test images 
+  3. Find feature extractors for each interest points found in (2) 
+  4. Match features 
+  5. Repeat the process n times for n number of template images and average the output ty and tx value to compute the co-ordinate.  
+  6. Implement a single scale and multi-scale strategy: Implement multi-scale interest points and feature descriptors 
