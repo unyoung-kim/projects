@@ -24,7 +24,7 @@ After matching descriptors between a template image of an object and a test imag
 
 
   The Harris Corner Value, R, could be computed as following
-  <p align="left">
+  <p align="center">
     <img src="images/img3.png" width="250"/>
   </p>
   
@@ -41,13 +41,12 @@ After matching descriptors between a template image of an object and a test imag
    
 - **Hough Transform**
   1. For each match of interest points, compute the difference in co-ordinates. ty=y1-y0, tx=x1-x0.
-  2. Compute the weights of (ty, tx) based on the probability distribution function below:
+  2. Compute the weight(pdf for correct matches – pdf for incorrect matches) of (ty, tx) based on the probability distribution function below:
 
 <p align="middle">
   <img src="images/img4.png" width="400" />
 </p>
 
-                        Weight = (pdf for correct matches – pdf for incorrect matches)
 
 - **Object Detection**
   1. Multiply each template images with its template masks 
