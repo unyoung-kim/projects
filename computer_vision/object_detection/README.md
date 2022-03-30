@@ -1,4 +1,4 @@
-# Interest Points and Feature Descriptors
+# Object Detection: Interest Points and Feature Descriptors
 
 Design and implement interest point detection, feature descriptor extraction, feature matching, and apply those functions to the task of object detection. 
 After matching descriptors between a template image of an object and a test image containing an example of the same object category, the code predicts the location (bounding box) of the object in the test image.
