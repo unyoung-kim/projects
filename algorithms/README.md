@@ -1,5 +1,5 @@
 # NP Complete problem
-The goal of this project is to suggest an optimal solution to the 
+The goal of this project is to suggest a time efficient solution to an NP problem.
 
 ## Inputs
 ### The program takes in the following inputs
